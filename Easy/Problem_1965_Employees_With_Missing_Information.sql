@@ -42,4 +42,3 @@ LEFT JOIN  Salaries AS S ON E.employee_id = S.employee_id
 WHERE S.salary IS NULL
 
 ORDER BY employee_id;
-
